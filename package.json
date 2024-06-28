@@ -1,5 +1,5 @@
 {
-  "name": "commerce-api",
+  "name": "erc7715backend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@scure/base": "^1.1.7",
+    "@simplewebauthn/browser": "^10.0.0",
+    "@simplewebauthn/server": "^10.0.0",
+    "next": "14.2.4",
+    "permissionless": "^0.1.31",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "viem": "^2.16.3"
   },
   "devDependencies": {
     "typescript": "^5",
